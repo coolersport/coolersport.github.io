@@ -12,14 +12,14 @@ When you play a song and like to sing along, this can help fetching correspondin
 It is just a harmless [bookmarklet](http://en.wikipedia.org/wiki/Bookmarklet) which requires you to install nothing (see source code).
 All you need to do is dragging the link below to your browser bookmark bar.
 
+<iframe src="//code.coolersport.info/html/google-music-lyrics-bookmarklet.html" width="300" height="50" style="display:block;margin:0 auto;border:none">&nbsp;</iframe>
+
 The [bookmarklet](http://en.wikipedia.org/wiki/Bookmarklet) must be used in the Google Music tab and a song is being played.
 Clicking on it the first time will show a panel with lyrics of the current song.
 Clicking while the song is still playing will hide the lyrics panel. When a new song is played, click again to load new lyrics.
 
 If a song's lyrics is unavailable, you will be prompted to search and create new entry on [LyricWikia](http://lyrics.wikia.com).
 The new lyrics will be available soon after being published.
-
-<iframe src="//code.coolersport.info/html/google-music-lyrics-bookmarklet.html" width="300" height="50" style="display:block;margin:0 auto;border:none">&nbsp;</iframe>
 
 If there is any issue, please leave a comment at the bottom of the page.
 
