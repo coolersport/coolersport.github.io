@@ -8,7 +8,7 @@ tags : [google music, lyrics, bookmarklet]
 
 Drag the link below to your browser bookmark bar and use it to toggle lyrics panel in Google Music tab.
 
-<iframe src="//code.coolersport.info/html/google-music-lyrics-bookmarklet.html" width="300" height="300" style="display:block; margin: 0 auto;">&nbsp;</iframe>
+<iframe src="//code.coolersport.info/html/google-music-lyrics-bookmarklet.html" width="300" height="50" style="display:block;margin:0 auto;border:none">&nbsp;</iframe>
 
 Verbose version:
 
