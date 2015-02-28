@@ -6,7 +6,11 @@ tags : [google music, lyrics, bookmarklet]
 ---
 {% include JB/setup %}
 
-Drag <a href="javascript:(function(){var artist = document.getElementById('player-artist') || false;artist = artist ? artist.innerText + ':' : '';var url = 'https://lyrics-coolersport.rhcloud.com/index.php/'+encodeURI(artist+document.getElementById('playerSongTitle').innerText);var frame = document.getElementById('lyricsframe');if (frame || false) {var removing = frame.src == url;frame.parentNode.parentNode.removeChild(frame.parentNode);if (removing) return false;}var div = document.createElement("div");document.getElementsByTagName("body")[0].appendChild(div);div.style.position = 'fixed';div.style.top=0;div.style.left=0;div.style.right=0;div.style.bottom=0;div.style.zIndex=999999;div.style.pointerEvents='none';frame = document.createElement("iframe");div.appendChild(frame);frame.id = 'lyricsframe';frame.style.border = '2px groove #fff';frame.style.width='50%';frame.style.height='70%';frame.style.margin='5% auto';frame.style.display='block';frame.style.pointerEvents='all';frame.src = url;return false;})();">this link</a> to your browser bookmark bar and use it to toggle lyrics panel in Google Music tab.
+Drag the link below to your browser bookmark bar and use it to toggle lyrics panel in Google Music tab.
+
+<iframe src="//code.coolersport.info/html/google-music-lyrics-bookmarklet.html" width="300" height="300" style="display:block; margin: 0 auto;">&nbsp;</iframe>
+
+Verbose version:
 
     javascript:(function(){
         var artist = document.getElementById('player-artist') || false;
@@ -18,8 +22,8 @@ Drag <a href="javascript:(function(){var artist = document.getElementById('playe
             frame.parentNode.parentNode.removeChild(frame.parentNode);
             if (removing) return false;
         }
-        var div = document.createElement("div");
-        document.getElementsByTagName("body")[0].appendChild(div);
+        var div = document.createElement('div');
+        document.getElementsByTagName('body')[0].appendChild(div);
         div.style.position = 'fixed';
         div.style.top=0;
         div.style.left=0;
@@ -27,7 +31,7 @@ Drag <a href="javascript:(function(){var artist = document.getElementById('playe
         div.style.bottom=0;
         div.style.zIndex=999999;
         div.style.pointerEvents='none';
-        frame = document.createElement("iframe");
+        frame = document.createElement('iframe');
         div.appendChild(frame);
         frame.id = 'lyricsframe';
         frame.style.border = '2px groove #fff';
