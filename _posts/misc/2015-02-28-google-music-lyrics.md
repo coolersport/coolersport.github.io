@@ -28,7 +28,7 @@ Verbose version:
     javascript:(function(){
         var artist = document.getElementById('player-artist') || false;
         artist = artist ? artist.innerText + ':' : '';
-        var url = 'https://lyrics-coolersport.rhcloud.com/index.php/'+encodeURI(artist+document.getElementById('player-song-title').innerText);
+        var url = 'https://lyrics-coolersport.rhcloud.com/index.php/'+encodeURI(artist+document.getElementById('currently-playing-title').innerText);
         var frame = document.getElementById('lyricsframe');
         if (frame || false) {
             var removing = frame.src == url;
